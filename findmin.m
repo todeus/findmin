@@ -10,6 +10,6 @@ while max(abs(2 * A * X + b)) > e
     X_n = X - (2 * A * X + b) * L;
     X = X_n;
     i=i+1;
-endwhile;
+end;
 2*A*X+b
 i
